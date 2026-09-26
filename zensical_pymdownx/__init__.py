@@ -1,0 +1,1 @@
+"""Zensical Pymdown Extensions theme."""

@@ -1,0 +1,35 @@
+extends: material
+
+language: en
+
+font:
+  text: Roboto
+  code: Roboto Mono
+
+icon:
+  logo: material/book-open-page-variant
+
+palette:
+  # Palette toggle for system
+  - media: "(prefers-color-scheme)"
+    toggle:
+      icon: material/brightness-auto
+      name: Switch to light mode
+
+  # Palette toggle for light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: deep purple
+    accent: deep purple
+    toggle:
+      icon: lucide/sun
+      name: Switch to dark mode
+
+  # Palette toggle for dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: deep purple
+    accent: deep purple
+    toggle:
+      icon: lucide/moon
+      name: Switch to light mode

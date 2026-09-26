@@ -34,7 +34,7 @@ dev = ["zensical>=0.0.40", "build>=1.2"]
 Homepage = "https://github.com/facelessuser/pymdownx-zensical-theme"
 
 [project.entry-points."mkdocs.themes"]
-alloy = "zensical_pymdownx"
+zensical_pymdownx = "zensical_pymdownx"
 
 [tool.hatch.build.targets.wheel]
 packages = ["zensical_pymdownx"]

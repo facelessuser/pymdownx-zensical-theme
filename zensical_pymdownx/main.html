@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
-  {{ super() }}
   <link rel="stylesheet" href="{{ 'assets/pymdownx-extras/extra-2c40363d78.css' | url }}">
   <script defer src="{{ 'assets/pymdownx-extras/extra-loader-BSCOcbUK.js' | url }}"></script>
+  {{ super() }}
 {% endblock %}
 
 {% block announce %}{% include "announce.html" ignore missing %}{% endblock %}
